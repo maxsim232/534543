@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="124dp">
+
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C39100"
+            android:text=" трохи про мене :я максиим мені 11.Я хочу бути програмістом.
+    це клікер суть і принцип роботи як в не безвідомоі настільної гри там де требя клацати на кнопки і рука буде двигатись туди хто швидше клацає так само і з нашим проєктом
+    хто швидше клацає по екрану тому додається балл до прогрес бару коли прогрес бар досягає тої точки де він закінчується на чий стороні він досягне мети той і виграв"
+            android:textColor="@color/black" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
